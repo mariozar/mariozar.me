@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 //import Resume from './components/Resume';
 import Terminal from 'terminal-in-react';
+// backgroundColor='#515151'
+// backgroundColor='#333333'
 
 class App extends Component {
   render() {
@@ -9,11 +11,11 @@ class App extends Component {
       <div >
         <NavBar />
         <Terminal
-          color='white'
-          backgroundColor='#515151'
-          backgroundColor='#333333'
+          color='#3757D4'
+          outputColor='#3757D4'
+          backgroundColor='white'
           barColor='black'
-          prompt='white'
+          prompt='#3757D4'
           hideTopBar='true'
           startState='maximised'
           style={{ fontWeight: "bold", fontSize: "1em", height: "100vh"}}
@@ -27,7 +29,7 @@ class App extends Component {
             showmsg: 'shows a message',
             alert: 'alert', popup: 'alert'
           }}
-          msg='Welcome!'
+          msg='Welcome to my website :)'
         />
       </div>
     );
