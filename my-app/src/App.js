@@ -6,6 +6,7 @@ import Terminal from 'terminal-in-react';
 // backgroundColor='#333333'
 
 class App extends Component {
+
   render() {
     return (
       <div >
@@ -20,16 +21,16 @@ class App extends Component {
           startState='maximised'
           style={{ fontWeight: "bold", fontSize: "1em", height: "100vh"}}
           commands={{
-            'open-google': () => window.open('https://www.google.com/', '_blank'),
-            showmsg: this.showMsg,
-            popup: () => alert('Terminal in React')
+            resume: () => { window.open('https://1drv.ms/b/s!AgRDXx2TKkRhj-AzWDfFkDPg4YEsZw'); },
+            github: () => { window.open('https://github.com/mariozar'); },
+            linkedin: () => { window.open('https://www.linkedin.com/in/mariozar/'); }
           }}
           descriptions={{
-            'open-google': 'opens google.com',
-            showmsg: 'shows a message',
-            alert: 'alert', popup: 'alert'
+            resume: 'links to resume',
+            github: 'links to GitHub',
+            linkedin: 'links to LinkedIn',
           }}
-          msg='Welcome to my website :)'
+          msg= "Type 'help' for a list of commands"
         />
       </div>
     );
