@@ -1,1 +1,3 @@
-In progress using ReactJS, Material-UI and terminal-in-react.
+[In progress] 
+
+This application uses ReactJS, Material-UI and terminal-in-react.
