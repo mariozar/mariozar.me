@@ -17,20 +17,67 @@ import Typography from '@material-ui/core/Typography';
 // };
 
 const style = {
-  background: '#3757D4',
+  background: 'black',
+};
+
+const styleG = {
+  color: '#00A1F1',
+};
+
+const styleo1 = {
+  color: '#F65314',
+};
+
+const styleo2 = {
+  color: '#FFBB00',
+};
+
+const styleg = {
+  color: '#00A1F1',
+};
+
+const stylel = {
+  color: '#7CBB00',
+};
+
+const stylee = {
+  color: '#F65314',
+};
+
+const stylehacker = {
+  color: 'green',
+};
+
+const styleusmc = {
+  color: '#C33735',
+};
+
+const styleucr1 = {
+  color: '#F4B943',
+};
+
+const styleucr2 = {
+  color: '#2E74B5',
+};
+
+const styleBar = {
+  color: '#333333',
 };
 
 const NavBar = () => {
-    return(
-        <div>
-        <AppBar position="static" style={style} >
-            <Toolbar>
-                <Typography variant="title" color="inherit">
-                Mario Salazar
-                </Typography>
-            </Toolbar>
-        </AppBar>
-        </div>
-    )
+  return(
+      <div>
+      <AppBar position="static" style={style}>
+          <Toolbar>
+              <Typography variant="title" color="inherit">
+              Mario Salazar ◍
+               <span style={styleG}> G</span><span style={styleo1}>o</span><span style={styleo2}>o</span><span style={styleg}>g</span><span style={stylel}>l</span><span style={stylee}>e</span> Scholar ○
+              US Marine ◌ Undergraduate Researcher ● Hacker
+              </Typography>
+          </Toolbar>
+      </AppBar>
+      </div>
+  );
 }
+
 export default NavBar;
