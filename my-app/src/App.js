@@ -33,7 +33,7 @@ class App extends Component {
           allowTabs='false'
           style={{ fontWeight: "bold", fontSize: "1em", height: "100vh"}}
           commands={{
-            resume: () => { window.open('https://1drv.ms/b/s!AgRDXx2TKkRhj-AzWDfFkDPg4YEsZw'); },
+            resume: () => { window.open('https://1drv.ms/b/s!AgRDXx2TKkRhj-A0KuE-D5Iq0-6r4A'); },
             github: () => { window.open('https://github.com/mariozar'); },
             linkedin: () => { window.open('https://www.linkedin.com/in/mariozar/'); },
             goals: () => "Learn React JS\nLearn Tensorflow\nLearn Django\nBuild custom Android builds\nRefine Python\nRefine C/C++\nContribute to open source NodeJS projects\nContribute to open source Linux distributions",
